@@ -1,7 +1,7 @@
 body.landing {
      background-color: rgb(58,23,63);
  }
- 
+
  .hero-content {
      position: relative;
      min-height: 600px;
@@ -10,7 +10,7 @@ body.landing {
      background-position: center center;
      background-size: cover;
  }
- 
+
  .hero-content .hero-title {
      position: absolute;
      top: 40%;
@@ -34,35 +34,25 @@ body.landing {
      -moz-transition-delay: 0.2s;
      transition-delay: 0.2s;
  }
- 
+
  .selling-points {
      position: relative;
  }
- 
+
  .point {
      position: relative;
      padding: 2rem;
      text-align: center;
-     opacity: 0;
-     -webkit-transform: scaleX(0.9) translateY(3rem);
-     -moz-transform: scaleX(0.9) translateY(3rem);
-     transform: scaleX(0.9) translateY(3rem);
-     -webkit-transition: all 0.25s cubic-bezier(.06,.9,.66,.23);
-     -moz-transition: all 0.25s cubic-bezier(.06,.9,.66,.23);
-     transition: all 0.25s cubic-bezier(.06,.9,.66,.23);
-     -webkit-transition-delay: 0.2s;
-     -moz-transition-delay: 0.2s;
-     transition-delay: 0.2s;
+     opacity: 1;
  }
- 
+
  .point .point-title {
      font-size: 1.25rem;
  }
- 
+
  .ion-music-note,
  .ion-radio-waves,
  .ion-iphone {
      color: rgb(233,50,117);
      font-size: 5rem;
  }
-
