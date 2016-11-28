@@ -58,11 +58,7 @@
            * @returns {number}
            */
           var getSongIndex = function(song) {
-            /* this supplied code returns -1 everytime because it is not
-            * finding the song in the array with the additional hashmaps */
-              //return currentAlbum.songs.indexOf(song);
-                var songList = ['Blue', 'Green', 'Red', 'Pink', 'Magenta'];
-                  return songList.indexOf(song.title);
+              return currentAlbum.songs.indexOf(song);
           };
           /**
           * @desc current song object
